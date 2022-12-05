@@ -123,14 +123,35 @@
                             <div id="form-message-success">
                             Votre message a bien été envoyé, merci !
                             </div>
+<?php
+  require 'vendor/autoload.php';
+  use \Mailjet\Resources;
+  $mj = new \Mailjet\Client('****************************1234','****************************abcd',true,['version' => 'v3.1']);
+  $body = [
+    'Messages' => [
+      [
+        'From' => [
+          'Email' => "sarahakouri@gmail.com",
+          'Name' => "Sarah"
+        ],
+        'To' => [
+          [
+            'Email' => "sarahakouri@gmail.com",
+            'Name' => "Sarah"
+          ]
+        ],
+        'Subject' => "Greetings from Mailjet.",
+        'TextPart' => "My first Mailjet email",
+        'HTMLPart' => "<h3>Dear passenger 1, welcome to <a href='https://www.mailjet.com/'>Mailjet</a>!</h3><br />May the delivery force be with you!",
+        'CustomID' => "AppGettingStartedTest"
+      ]
+    ]
+  ];
+  $response = $mj->post(Resources::$Email, ['body' => $body]);
+  $response->success() && var_dump($response->getData());
+?>
 
-                            <?php
-                            if (isset($_POST['message'])) {
-                                $retour = mail('destinataire@free.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
-                                if($retour)
-                                    echo '<p>Votre message a bien été envoyé.</p>';
-                            }
-                            ?>
+
                         </div>
                         <div class="col-lg-4 ml-auto">
                             <h3 class="mb-4">Les autres moyens de me contacter.</h3>
