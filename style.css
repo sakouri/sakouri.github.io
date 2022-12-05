@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+* { margin: 0 }
+
+body{
+    
+    font-family: 'Poppins',sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    margin:0;
+    list-style:none;
+    background:#200959;
+}
+* {
+    box-sizing: border-box;
+}
+main {
+    margin: 0 auto;
+	padding: .875em .5em;
+	max-width: 32em;
+	background: #200959;
+	font: 1.25em/ 1.375 segoe script,'Akshar', cursive;
+    position:relative;
+    color:#fff;
+	
+	* + * { margin-top: 1.375em }
+}
+.banner1 {
+	margin-left: calc(50% - 50vw);
+	width: 100vw; height: 37.5vmin;
+	min-height: 15em;
+	background: url('https://www.ddtechblog.com/static/cb1538e8e352dc8afcf92fee8489bee4/88110/a.jpg');
+    background-image : linear-gradient(#000, transparent, #000), 50% / cover ;
+    height:50%;
+	background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+.banner2 {
+	margin-left: calc(50% - 50vw);
+	width: 100vw; height: 37.5vmin;
+	min-height: 15em;
+	background: url('https://www.hebergeur-image.com/upload/91.163.5.163-635807d1cb3ca.png') ;
+    background-image : linear-gradient(#000, transparent, #000), 50% / cover ;
+    height:50%;
+	background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+.banner3 {
+	margin-left: calc(50% - 50vw);
+	width: 250vw; height: 37.5vmin;
+	min-height: 15em;
+	background: url('https://media.cntraveler.com/photos/55788540eb260e510b3ab38b/master/pass/great-wall-hiker-cr-karen-su-alamy-1.jpg') ;
+    background-image : linear-gradient(#000, transparent, #000), cover ;
+    height:30%;
+    background-size: 1530px 1020px;
+	background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+.banner4 {
+	margin-left: calc(50% - 50vw);
+	width: 400vw; height: 37.5vmin;
+	min-height: 15em;
+	background: url('https://www.getfootballnewsfrance.com/assets/paris-saint-germain-v-lille-osc-ligue-1-uber-eats-1-1-scaled.jpg') ;
+    background-image : linear-gradient(#000, transparent, #000), cover ;
+    height:50%;
+    background-size: 1530px 1020px;
+	background-attachment: fixed;
+    background-blend-mode: multiply;
+}
+
+
+
+.bg-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    color:#200959 ;
+    font-weight:bold;
+    font-size:80px;
+    border:10px solid #a9a7ff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+nav h1{
+    color:#ffffff;
+    font-family: 'Poppins',sans-serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 5px;
+    margin-left: 300px; 
+    border-radius: 20px;
+    padding-bottom: 20px;
+
+}
+nav .onglets a:hover{
+    background-color: #7045f2 ;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 10px ;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 5px;
+    border-radius: 20px;
+
+}
+
+header{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('https://i.pinimg.com/originals/21/2c/3d/212c3d4c9bf99a0565ae82c2351e2f0c.gif') ;
+    background-size: cover;
+    color: #fff;
+    padding: 40px;
+
+}
+.btn{
+    background:none;
+    width:250px;
+    height: 70px;
+    border: 4px solid #7045f2;
+    font-size: 20px;
+    font-weight: bold;
+    color: #7045f2;
+    border-radius : 20px;
+    transition: .4s linear;
+    position:relative;
+    cursor: pointer;
+    text-align: center;
+    display : inline-block;
+
+}
+.btn:hover{
+    color:white;
+
+}
+.btn::before{
+    content:"";
+    position:absolute;
+    width: 245px;
+    height: 55px;
+    top: 0px;
+    left:0px;
+    background-color: rgb(112, 69, 242,0.8) ;
+    z-index:-1;
+    transition: -4s linear;
+    cursor: pointer;
+}
+
+.border-gradient{
+    border-image : 10px solid;
+    border-image-slice:1;
+    border-width: 5px;
+}
+.border-gradient-purple{
+    border-image-source: (#000, transparent, #000);
+}
+.competences{
+font-size: 16px;
+color:#3c60f1;
+}
+.exp_pro{
+    font-size: 16px;
+    color:#3c60f1;
+    }
+.langue{
+    font-size: 16px;
+    color:#3c60f1;
+    }
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+a:link{
+    text-decoration: none;
+}
+back-top{
+    margin: 10;
+    padding: 10;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+button {
+	width: 75px;
+	height: 75px;
+	cursor: pointer;
+	background-color: #5de6de;
+	background-image: linear-gradient(315deg, #5de6de 0%, #b58ecc 74%);
+	border: none;
+	border-radius: 50%;
+	transition: 200ms;
+}
+
+button svg {
+	fill: white;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+button:before {
+	content: 'Retour en haut';
+	position: absolute;
+	transform: translateX(-50%) translateY(45px);
+	font-size: 15px;
+	transition: 200ms;
+	color: transparent;
+	font-weight: bold;
+}
+
+button:hover {
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+	width: 80px;
+	height: 80px;
+}
+
+button:hover::before {
+	color: #fff;
+}
+
+button:hover svg {
+		animation: bounce 2s infinite linear;
+}
+
+@keyframes bounce {
+	0% {transform: translateX(-50%) translateY(-50%)}
+	25% {transform: translateX(-50%) translateY(-65%)}
+	50% {transform: translateX(-50%) translateY(-50%)}
+	75% {transform: translateX(-50%) translateY(-35%)}
+	100% {transform: translateX(-50%) translateY(-50%)}
+}
+
+button:focus {
+	outline: none;
+}
+}
+.back{
+
+    margin: 5;
+    padding: 5;
+    display: flex;
+    height: 100vh;
+    align-items: top,left;
+    justify-content: left;
+    background:#fff;
+    
+span{
+
+    position: top;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "Retour";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(39, 9, 172);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: rgb(39, 9, 172);
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: rgb(39, 9, 172);
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  .ldm{
+  align-items: center;
+  }
+}
+  
+
+@media screen and (max-width:680px){
+
+    nav .onglets{
+        position:absolute;
+        display:flex;
+        flex-direction: column;
+
+    }
+    nav .onglets a:hover {
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color:rgb(255, 255, 255);
+        backdrop-filter : blur(7px);
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items:center;
+    }
+}
