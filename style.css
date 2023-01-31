@@ -29,7 +29,7 @@ main {
 	margin-left: calc(50% - 50vw);
 	width: 100vw; height: 37.5vmin;
 	min-height: 15em;
-	background: url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80');
+	background: url('https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80');
     background-image : linear-gradient(#000, transparent, #000), 50% / cover ;
     height:50%;
 	background-attachment: fixed;
