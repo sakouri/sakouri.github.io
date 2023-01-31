@@ -29,7 +29,7 @@ main {
 	margin-left: calc(50% - 50vw);
 	width: 100vw; height: 37.5vmin;
 	min-height: 15em;
-	background: url('https://www.ddtechblog.com/static/cb1538e8e352dc8afcf92fee8489bee4/88110/a.jpg');
+	background: url('https://llt.imgix.net/v1/1639844972-introductiontocodingconceptsforprereaders.jpg');
     background-image : linear-gradient(#000, transparent, #000), 50% / cover ;
     height:50%;
 	background-attachment: fixed;
