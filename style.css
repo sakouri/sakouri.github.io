@@ -102,7 +102,7 @@ nav h1{
 }
 nav .onglets{
     margin-top: 5px;
-    margin-left: 80px; 
+    margin-left: 300px; 
     border-radius: 20px;
     padding-bottom: 20px;
 
@@ -115,6 +115,7 @@ nav .onglets a:hover{
     border-bottom: 1px solid rgb(255, 255, 255);
     padding-bottom: 5px;
     border-radius: 20px;
+    padding: flex;
 
 }
 
