@@ -118,20 +118,20 @@ align-items: center;
       transform: translatey(100%);
       transition: opacity 0.5s ease-in-out, transform 0.5s 0.2s;
       visibility: hidden;
-    .content a {
+    .content {
       color: white; 
       text-decoration: none; 
     }
 
-    .content a:visited {
+    .content :visited {
       color: white; 
     }
-        .content a:hover {
+        .content :hover {
       color: white; 
       text-decoration: none; 
     }
 
-    .content a:active {
+    .content :active {
       color: white; 
       text-decoration: none; 
     }
