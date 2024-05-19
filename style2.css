@@ -122,6 +122,19 @@ align-items: center;
       color: white; 
       text-decoration: none; 
     }
+
+    .content a:visited {
+      color: white; 
+    }
+        .content a:hover {
+      color: white; 
+      text-decoration: none; 
+    }
+
+    .content a:active {
+      color: white; 
+      text-decoration: none; 
+    }
       .carousel {
         display: block;
         margin-top: 5px;
