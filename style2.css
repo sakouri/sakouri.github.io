@@ -91,11 +91,11 @@ align-items: center;
 ;
 }
     &:nth-of-type(3) {
-      background: url("MASTERMIND.png")
+      background: url("https://www.hebergeur-image.com/upload/91.163.5.163-664a5ea483f4e.png")
         no-repeat 50% / cover;
     }
     &:nth-of-type(4) {
-      background: url("Projet\ épreuve\ E5\ BTS\ SIO.png")
+      background: url("https://www.hebergeur-image.com/upload/91.163.5.163-664a5e6d0fe20.png")
         no-repeat 50% / cover;
     }
 
