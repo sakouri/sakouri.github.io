@@ -85,12 +85,7 @@ align-items: center;
         no-repeat 50% / cover;
     }
 
-.image-link {
-  display: inline-block;
-  text-decoration: none;
-}
-
-.image-link .image-container:nth-of-type(2) {
+    &:nth-of-type(2) {
   background: url("https://www.hebergeur-image.com/upload/91.163.5.163-664a55d952cd3.png") 
   no-repeat 50% / cover;
 ;
