@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille technologique</title>
+    <link rel="stylesheet" href="vt.css">
+</head>
+<body>
+<main>
+    <p><br><br><h1>Outils métiers : MYCE et ADES</h1>
+<br><br><h1><strong>MYCE:</strong></h1>
+<br>L’objectif de MYCE est de faire gagner du temps aux SDM lors de l’élaboration de leur comité de pilotage, en agrégeant de multiples sources d’informations internes et unifie l’ensemble des données pour les faire correspondre à la charte graphique d’OCD, tout en respectant la nécessité de personnaliser le contenu et le rendu final en fonction du client. 
+<br><br>Nous avons donc continué le développement de MYCE. En effet l’outil basé sur Excel existait déjà, nous avons donc eu deux gros objectifs bien définis :
+<br><br>▪ Rendre l’outil fiable
+<br>▪ Ajouter des fonctionnalités, dans la continuité de ce qui avait été fait 
+<br><br>Etant donné que nous étions deux à travailler sur ce projet, les tâches étaient donc divisées. Pour la répartition, on définissait l’objectif que chacun devait atteindre, puis nous travaillions sur un fichier séparé. Une fois les deux fonctionnalités développées, nous rassemblions notre travail sur un fichier commun.
+<br><br>▪ Rédiger les documentations utilisateur et développeur
+<br><br><strong>Architecture globale</strong>
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a505a761fa.png'width=80% height=50%/>
+<br><br>MYCE est un outil central dans les comités de pilotage des SDM. MYCE interagit donc avec son environnement qui se compose : 
+<br><br>▪ Un Excel d’extract qui contient les informations des tickets SNOW. 
+<br>▪ Un SharePoint qui permet continuellement d’être informé des nouvelles mises à jour et donc potentiellement les installés. 
+<br>▪ Le fichier PowerPoint du COPIL qui permet la récupération des informations
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a50d46fb2c.png'width=80% height=50%/> 
+<br><br><h1><strong>ADES:</strong></h1>
+<br><br>L’objectif de ADES est la création d’une interface de consolidation au centre de la chaîne d’information du service Expertise. Le transit d’informations entre l’ADV, le BM et CDG est manuel. Cela est fastidieux et source d’erreurs. L’objectif était donc de créer un moyen d’automatiser les entrées de données administratives et financières, les transferts, les contrôles mais également de s’appuyer sur un support fiable pour les actions des uns et des autres.
+<br><br>Trois interfaces ont donc été créées :
+<br><br>
+<br>▪ Les fichiers ADV
+<br>▪ Les fichiers BM 
+<br>▪ Le fichier Service qui regroupe toutes les données pour obtenir une vision sur l’activité. 
+<br><br>Base de données
+<br><br>Architecture globale
+<br><br>ADES est un système de gestion d’un service à travers divers fichiers Excel, qui a de nombreuses interactions. Son composant principal est la base de données qui stocke l’ensemble des données. Ce dernier est ensuite connecté à plusieurs fichiers différent qui représente des métiers différents. 
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a50d46fb2c.png'width=80% height=50%/>
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a5300c63d1.png'width=80% height=50%/>
+<br><br><strong>Utilisation BM :</strong>
+<br>Le BM doit suivre son activité. Pour cela, il possède un onglet « Suivi » qui lui permet de 
+suivre les prestations, les noter, en ajouter etc.
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a53518b90e.png'width=80% height=50%/>
+<br><br>Mais il doit également placer de nouveau collaborateur, il possède donc un onglet « Pipe » qui lui permet de suivre les demandes, pour essayer de répondre aux offres des partenaires. 
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a53827a895.png'width=80% height=50%/>
+<br><br><strong>Utilisation ADV : </strong>
+<br><br>L’ADV reçoit via son fichier les informations des contrats des BM. Le nombre de jours prestés mensuellement par collaborateur doit y être reportés. Ces données sont enregistrées de manière prévisionnelle avant la clôture qui intervient vers le 20 du mois et de manière réelle en début du mois d’après. 
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a53f68ccd8.png'width=80% height=50%/>
+<br><br><strong>Utilisation Service :</strong> 
+<br><br>Le fichier service est un tableau de bord pour suivre les résultats de la BU et établir des KPI. 
+<br>On y retrouve aussi une version légèrement modifiée du PIPE. 
+<br><br><img src='https://www.hebergeur-image.com/upload/91.163.5.163-664a544f27291.png'width=80% height=50%/>
+<br><br>
+</p>
+</main>
+</body>
+</html>
